@@ -16,8 +16,8 @@
 \def\filedate{2012/04/03}
 \def\filename{cggbook}
 
-\NeedsTeXFormat{LaTeX2e}  \ProvidesClass{\filename}[\filedate Buch-Klasse fuer CGG@IQG, (c) by Florian Wolz]
-\typeout{Class: '\filename' Version \fileversion, Buchvorlage der CGG@IQG}
+\NeedsTeXFormat{LaTeX2e}  \ProvidesClass{\filename}[\filedate Modern book class, (c) by Florian Wolz]
+\typeout{Class: '\filename' Version \fileversion, Modern book class}
 
 \ProcessOptions\relax
 \LoadClass[a4paper,9pt]{book}
@@ -51,7 +51,7 @@
 %= Font
 \RequirePackage{fontspec}
 \RequirePackage[light]{sourcesanspro}
-%\RequirePackage{ebgaramond}
+\RequirePackage[default]{sourceserifpro}
 %\usepackage{unicode-math}
 
 %= Dimensionen
@@ -370,29 +370,7 @@
     \titleformat*{\subsection}{\large\bfseries\sourcesanspro}
     
     \usetikzlibrary{positioning}
-    
-    \newfontfamily\kaffeesatz[
-        Path=template/fonts/,
-        Mapping=tex-text,
-        Extension=.ttf,
-        UprightFont=*-Regular,
-        BoldFont=*-Bold,
-    ]{YanoneKaffeesatz}
-    
-    \setmainfont[
-        Path=template/fonts/,
-        Mapping=tex-text,
-        Extension=.ttf,
-        UprightFont=*-Regular,
-        ItalicFont=*-Italic,
-        BoldFont=*-Bold,
-        BoldItalicFont=*-BoldItalic
-    ]{MinionPro}
-    
-    %\setmainfont{Minion Pro}
-	%\setmathsfont(Digits,Greek,Latin)[Numbers={Proportional}]{MinionPro}
-	%\setmathrm{MinionPro}
-    
+
     % Set spread
     \fontsize{11pt}{13pt}
     \linespread{1.2}

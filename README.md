@@ -5,7 +5,7 @@ For this it uses a fresh set of colors, elegant and field-proven fonts.
 
 ## Features
 
-[x] Elegant fonts: Georgia and Source Sans Pro
+[x] Elegant fonts: Source Sans Pro and Source Serif Pro
 [x] Simple structure
 [ ] Additional packages for thesis layouts.
 
