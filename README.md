@@ -22,7 +22,8 @@ from the master branch with
 $ git pull origin master
 ```
 For this to work, it is strongly recommended to NEVER change the following two files:
-`main.tex` and `modernbook.cls`.
+`main.tex` and `modernbook.cls`. The policy is that you only modify values
+that lie in the `content` directory.
 
 # Copyright
 

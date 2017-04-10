@@ -12,25 +12,15 @@
 %  See the License for the specific language governing permissions and
 %  limitations under the License.
 
-\documentclass[a4paper,twoside]{modernbook}
+%%
+%  Here you define the preamble of your document.
+%  This includes the titles, subtitles, date, ...
+%%
 
-% Preamble
-    \input{content/additional_packages.tex}
+    \title{The one and only}
+    \largetitle{fancy title}
 
-    \input{content/preamble.tex}
+    \subtitle{A fancy subtitle}
 
-    \input{content/global_definitions.tex}
-
-\begin{document}
-
-% The document
-    \frontmatter
-
-    \maketitle
-    \tableofcontents
-
-    \mainmatter
-
-    \input{content/content.tex}
-
-\end{document}
+    \author{The Author}
+    \date{\today}
